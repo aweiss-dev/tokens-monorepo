@@ -164,7 +164,7 @@
             "type": "spacing"
           },
           "gap": {
-            "value": "{buttons.default.spacing.Y}",
+            "value": "{core.s}",
             "type": "spacing"
           }
         },
