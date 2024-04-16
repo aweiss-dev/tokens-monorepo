@@ -1,4 +1,19 @@
 {
-  "name": "Design-Monorepo",
-  "packageManager": "yarn@4.1.1"
+  "name": "@wire/frontendpoc",
+  "packageManager": "yarn@4.1.1",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aweiss-dev/figma-tokens.git"
+  },
+  "author": "Adrian Weiß",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aweiss-dev/figma-tokens/issues"
+  },
+  "homepage": "https://github.com/aweiss-dev/figma-tokens#readme"
 }
