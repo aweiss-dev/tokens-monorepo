@@ -1,0 +1,54 @@
+{
+  "buttons": {
+    "confirm": {
+      "spacing": {
+        "outer": {
+          "value": "32px",
+          "type": "spacing"
+        },
+        "inner": {
+          "value": "12px",
+          "type": "spacing"
+        }
+      },
+      "color": {
+        "default": {
+          "value": "#CED4DA",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#ecd06f",
+          "type": "color"
+        },
+        "error": {
+          "value": "#df6c4f",
+          "type": "color"
+        },
+        "success": {
+          "value": "#3c948b",
+          "type": "color"
+        },
+        "font": {
+          "value": "#000",
+          "type": "color"
+        }
+      },
+      "borderRadius": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "opacity": {
+        "value": 1,
+        "type": "opacity"
+      },
+      "fontSize": {
+        "value": "24px",
+        "type": "fontSizes"
+      },
+      "lineHeight": {
+        "value": "37px",
+        "type": "lineHeights"
+      }
+    }
+  }
+}

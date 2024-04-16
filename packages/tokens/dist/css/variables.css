@@ -1,0 +1,13 @@
+:root {
+          --buttons-confirm-spacing-outer: 32px;
+  --buttons-confirm-spacing-inner: 12px;
+  --buttons-confirm-color-default: #CED4DA;
+  --buttons-confirm-color-hover: #ecd06f;
+  --buttons-confirm-color-error: #df6c4f;
+  --buttons-confirm-color-success: #3c948b;
+  --buttons-confirm-color-font: #000;
+  --buttons-confirm-border-radius: 8px;
+  --buttons-confirm-opacity: 1;
+  --buttons-confirm-font-size: 1.5rem;
+  --buttons-confirm-line-height: 2.3125rem;
+        }
