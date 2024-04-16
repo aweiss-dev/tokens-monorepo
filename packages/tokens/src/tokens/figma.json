@@ -1,6 +1,6 @@
 {
   "Core": {
-    "core": {
+    "opacity": {
       "0": {
         "value": "0",
         "type": "opacity"
@@ -20,7 +20,9 @@
       "100": {
         "value": "1",
         "type": "opacity"
-      },
+      }
+    },
+    "lineHeight": {
       "3xs": {
         "value": "16px",
         "type": "lineHeights"
@@ -32,18 +34,6 @@
       "xs": {
         "value": "20px",
         "type": "lineHeights"
-      },
-      "s": {
-        "value": "4px",
-        "type": "borderRadius"
-      },
-      "m": {
-        "value": "8px",
-        "type": "borderRadius"
-      },
-      "l": {
-        "value": "16px",
-        "type": "borderRadius"
       },
       "xl": {
         "value": "29px",
@@ -64,7 +54,23 @@
       "5xl": {
         "value": "101px",
         "type": "lineHeights"
+      }
+    },
+    "borderRadius": {
+      "s": {
+        "value": "4px",
+        "type": "borderRadius"
       },
+      "m": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "16px",
+        "type": "borderRadius"
+      }
+    },
+    "color": {
       "shade": {
         "0": {
           "value": "#F8F9FA",
@@ -124,7 +130,9 @@
           "value": "#ecd06f",
           "type": "color"
         }
-      },
+      }
+    },
+    "other": {
       "media": {
         "breakpoints": {
           "xs": {
@@ -149,6 +157,44 @@
           }
         }
       }
+    },
+    "spacing": {
+      "xxs": {
+        "value": "4px",
+        "type": "spacing"
+      },
+      "xs": {
+        "value": "6px",
+        "type": "spacing"
+      },
+      "s": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "10px",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "12px",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "32px",
+        "type": "spacing"
+      },
+      "4xl": {
+        "value": "64px",
+        "type": "spacing"
+      }
     }
   },
   "Buttons": {
@@ -156,33 +202,33 @@
       "default": {
         "spacing": {
           "Y": {
-            "value": "{core.s}",
+            "value": "{spacing.l}",
             "type": "spacing"
           },
           "X": {
-            "value": "{core.xl}",
+            "value": "{spacing.3xl}",
             "type": "spacing"
           },
           "gap": {
-            "value": "{core.s}",
+            "value": "{spacing.xl}",
             "type": "spacing"
           }
         },
         "color": {
           "default": {
-            "value": "{core.shade.300}",
+            "value": "{color.shade.300}",
             "type": "color"
           },
           "hover": {
-            "value": "{core.accent.yellow}",
+            "value": "{color.accent.yellow}",
             "type": "color"
           },
           "error": {
-            "value": "{core.accent.red}",
+            "value": "{color.accent.red}",
             "type": "color"
           },
           "success": {
-            "value": "{core.accent.green}",
+            "value": "{color.accent.green}",
             "type": "color"
           },
           "font": {
@@ -191,20 +237,28 @@
           }
         },
         "borderRadius": {
-          "value": "{core.m}",
+          "value": "{borderRadius.l}",
           "type": "borderRadius"
         },
         "opacity": {
-          "value": "{core.100}",
+          "value": "{opacity.100}",
           "type": "opacity"
         },
         "fontSize": {
-          "value": "{core.xl}",
+          "value": "{lineHeight.xl}",
           "type": "fontSizes"
         },
         "lineHeight": {
-          "value": "{core.xxl}",
+          "value": "{lineHeight.xxl}",
           "type": "lineHeights"
+        },
+        "border": {
+          "value": {
+            "style": "solid",
+            "width": "3px",
+            "color": "{buttons.default.color.font}"
+          },
+          "type": "border"
         }
       }
     }
